@@ -1,0 +1,17 @@
+---
+title: "Authentication"
+description: "How to authenticate with the LGM API"
+---
+
+## API keys
+
+Requests to the Livestock Gross Margin API require a bearer token.
+
+1. Obtain your token from the AgencyRoot dashboard.
+2. Include the token in the `Authorization` header of each request.
+
+```http
+Authorization: Bearer YOUR_TOKEN
+```
+
+Tokens should be kept secret and rotated regularly.
